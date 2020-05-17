@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package perceptron1layer;
 
 /**
@@ -16,7 +11,7 @@ public class Sample {
     private boolean valid = false;
 
     public Sample(double[] p, int target, int depth) {
-        this.p = new double[depth]; //it's an array with length of 2 for now.
+        this.p = new double[depth];
         this.p = p;
         this.target = target;
     }
