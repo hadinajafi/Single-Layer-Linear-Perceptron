@@ -16,10 +16,10 @@ public class Perceptron1Layer {
         double[] p3 = {1, 1, 1, -1};
         double[] p4 = {1, -1, -1, 1};
         //creating samples
-        Sample s1 = new Sample(p1, 1, depth);
-        Sample s2 = new Sample(p2, 1, depth);
-        Sample s3 = new Sample(p3, -1, depth);
-        Sample s4 = new Sample(p4, -1, depth);
+        Sample s1 = new Sample(p1, 1);
+        Sample s2 = new Sample(p2, 1);
+        Sample s3 = new Sample(p3, -1);
+        Sample s4 = new Sample(p4, -1);
         //running the algorithm
         Training tr = new Training(depth);
         tr.addSample(s1);
