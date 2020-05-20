@@ -10,8 +10,7 @@ public class Sample {
     private final int target;
     private boolean valid = false;
 
-    public Sample(double[] p, int target, int depth) {
-        this.p = new double[depth];
+    public Sample(double[] p, int target) {
         this.p = p;
         this.target = target;
     }
